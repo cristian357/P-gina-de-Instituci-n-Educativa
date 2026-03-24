@@ -11,3 +11,15 @@
     position: relative;
     top: -20px;
 }
+h2 {
+    text-align: center;
+} 
+.Historia p{
+    background-color: aliceblue;
+    padding: 5%;
+    position: relative;
+    left: 25%;
+    box-shadow: 10px 10px 8px 10px #888888;
+    width: 600px;
+}
+
