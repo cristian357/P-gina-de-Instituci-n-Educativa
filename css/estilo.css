@@ -9,19 +9,24 @@ body {
 header {
     background-color: #750202; /* rojo */
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 40px;
 }
 
 /* MENÚ */
 nav ul {
     list-style: none;
-    padding: 0;
-    margin-top: 10px;
+    padding: 15;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
 }
 
 nav ul li {
@@ -143,4 +148,3 @@ footer {
     margin: auto;
     font-size: 16px;
 }
-
