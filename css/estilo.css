@@ -7,7 +7,7 @@ body {
 
 /* ENCABEZADO */
 header {
-    background-color: #2e7d32; /* verde */
+    background-color: #750202; /* rojo */
     color: white;
     padding: 15px;
     text-align: center;
@@ -36,7 +36,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #24740f;
+    transition: 0.5s;
 }
 
 /* HERO */
@@ -45,25 +46,38 @@ nav ul li a:hover {
     color: white;
     text-align: center;
     padding: 100px 20px;
+    animation: aparecer 2s forwards;
+    opacity: 0;
+}
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .hero h2 {
-    font-size: 40px;
+    font-size: 55px;
+    color:rgb(255, 255, 255);
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
 }
 
 .hero button {
-    background-color: #d32f2f; /* rojo */
+    background-color: #670f0f; /* rojo */
     color: white;
     border: none;
     padding: 10px 20px;
     margin-top: 15px;
     cursor: pointer;
     font-size: 16px;
-    background: linear-gradient(45deg, #d32f2f, #ff5252);
+     background: linear-gradient(45deg, #16650c, #16650c);
     border-radius: 25px;
 }
 
@@ -81,17 +95,17 @@ nav ul li a:hover {
 }
 
 .card {
-    background: white;
+    background: rgb(131, 211, 111);
     padding: 20px;
     width: 250px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(250, 248, 248, 0.1);
 }
 
 /* FOOTER */
 footer {
-    background-color: #1b5e20;
+    background-color: #750202;
     color: white;
     text-align: center;
     padding: 10px;
@@ -129,3 +143,4 @@ footer {
     margin: auto;
     font-size: 16px;
 }
+
