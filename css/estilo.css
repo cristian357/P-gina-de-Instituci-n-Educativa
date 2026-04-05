@@ -245,3 +245,54 @@ footer {
 .card-noticia button:hover {
     background-color: #b71c1c;
 }
+/* SECCIÓN OFERTA */
+.oferta {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+/* TARJETA OFERTA */
+.card-oferta {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card-oferta:hover {
+    transform: translateY(-10px);
+}
+
+.card-oferta h3 {
+    color: #2e7d32;
+}
+
+/* MATERIAS */
+.materias {
+    text-align: center;
+    padding: 30px;
+}
+
+.materias h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.materias ul {
+    list-style: none;
+    padding: 0;
+}
+
+.materias ul li {
+    background: #e8f5e9;
+    margin: 8px auto;
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+}
