@@ -296,3 +296,52 @@ footer {
     width: 250px;
     border-radius: 8px;
 }
+/* EQUIPO DIRECTIVO */
+.equipo {
+    text-align: center;
+    padding: 40px;
+}
+
+.equipo h2 {
+    color: #2e7d32;
+    margin-bottom: 30px;
+}
+
+/* CONTENEDOR EQUIPO */
+.equipo-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* TARJETA EQUIPO */
+.card-equipo {
+    background: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card-equipo:hover {
+    transform: translateY(-10px);
+}
+
+/* IMAGEN */
+.card-equipo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* TEXTO */
+.card-equipo h3 {
+    margin: 10px 0 5px;
+    color: #2e7d32;
+}
+
+.card-equipo p {
+    color: #555;
+}
