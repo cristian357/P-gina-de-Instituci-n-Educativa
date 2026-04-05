@@ -82,7 +82,7 @@ nav ul li a:hover {
     margin-top: 15px;
     cursor: pointer;
     font-size: 16px;
-     background: linear-gradient(45deg, #16650c, #16650c);
+    background: linear-gradient(45deg, #16650c, #16650c);
     border-radius: 25px;
 }
 
@@ -147,4 +147,45 @@ footer {
     max-width: 800px;
     margin: auto;
     font-size: 16px;
+}
+/* SECCIÓN DOCENTES */
+.docentes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* TARJETA DOCENTE */
+.card-docente {
+    background: white;
+    width: 220px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card-docente:hover {
+    transform: translateY(-10px);
+}
+
+/* IMAGEN DOCENTE */
+.card-docente img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* NOMBRE */
+.card-docente h3 {
+    margin: 10px 0 5px;
+    color: #2e7d32;
+}
+
+/* MATERIA */
+.card-docente p {
+    color: #555;
 }
