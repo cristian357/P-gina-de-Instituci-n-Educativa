@@ -11,6 +11,18 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    animation: bajar 1s ease;
+}
+
+@keyframes bajar{
+    from{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 header h1 {
