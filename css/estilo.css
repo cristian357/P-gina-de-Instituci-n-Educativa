@@ -367,3 +367,44 @@ footer {
 .card-equipo p {
     color: #555;
 }
+/* SECCIÓN ESTUDIANTES */
+.estudiantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* TARJETA ESTUDIANTE */
+.card-estudiante {
+    background: white;
+    width: 220px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card-estudiante:hover {
+    transform: translateY(-10px);
+}
+
+/* IMAGEN */
+.card-estudiante img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* NOMBRE */
+.card-estudiante h3 {
+    margin: 10px 0 5px;
+    color: #2e7d32;
+}
+
+/* GRADO */
+.card-estudiante p {
+    color: #555;
+}
